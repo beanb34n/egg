@@ -1,0 +1,9 @@
+You are presented with a multistory building and some number of superstrong eggs. These eggs
+can withstand drops from some height; you must figure out just what this height is. You are told that
+there is some floor, f0, such that the eggs can survive the drop from f0 but will break when dropped
+from floor f0 + 1. f0 may be the top of the building—that is, the eggs may not break at all. (Note
+that in each game all the eggs you are given have the same superstrength, i.e., if one breaks when
+dropped from a certain height, they all will.)
+You want to determine the value of f0 as efficiently as possible, that is, by making the fewest
+number of droppings. Of course, you must guarantee that you find f0 before you run out of eggs, so
+any strategy must take this into account.
